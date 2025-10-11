@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "f-dev": "bun run --filter web dev",
+    "b-dev": "bun run --filter backend dev"
+  },
   "workspaces": [
     "packages/*"
   ],
